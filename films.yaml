@@ -1,0 +1,173 @@
+- model: films.movie
+  pk: 1
+  fields:
+    name: Avatar
+    year: 2009
+    description: Avatar (marketed as James Cameron's Avatar) is a 2009 epic science
+      fiction film directed, written, co-produced, and co-edited by James Cameron
+      and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez,
+      and Sigourney Weaver. It is set in the mid-22nd century, when humans are colonizing
+      Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system,
+      in order to mine the valuable mineral unobtanium. The expansion of the mining
+      colony threatens the continued existence of a local tribe of Na'vi, a humanoid
+      species indigenous to Pandora. The title of the film refers to a genetically
+      engineered Na'vi body operated from the brain of a remotely located human that
+      is used to interact with the natives of Pandora.
+- model: films.movie
+  pk: 2
+  fields:
+    name: 'Avatar: The Way of Water'
+    year: 2022
+    description: 'Avatar: The Way of Water is a 2022 American epic science fiction
+      film directed and produced by James Cameron. He co-wrote the screenplay with
+      Rick Jaffa and Amanda Silver from a story the trio wrote with Josh Friedman
+      and Shane Salerno. Distributed by 20th Century Studios, it is the sequel to
+      Avatar (2009) and the second installment in the Avatar film series. Cast members
+      Sam Worthington, Zoe Saldana, Stephen Lang, Joel David Moore, CCH Pounder, Giovanni
+      Ribisi, Dileep Rao, and Matt Gerald reprise their roles from the original film,
+      with Sigourney Weaver returning in an additional role. New cast members include
+      Kate Winslet, Cliff Curtis, Edie Falco, and Jemaine Clement. In the film, Na''vi
+      Jake Sully (Worthington) and his family, under renewed human threat, seek refuge
+      with the Metkayina clan of Pandora.'
+- model: films.movie
+  pk: 3
+  fields:
+    name: 'Star Wars: A New Hope'
+    year: 1977
+    description: 'Star Wars (retroactively titled Star Wars: Episode IV – A New Hope)
+      is a 1977 American epic space opera film written and directed by George Lucas,
+      produced by Lucasfilm and distributed by 20th Century Fox. It is the first film
+      in the Star Wars film series and fourth chronological chapter of the "Skywalker
+      Saga". Set "a long time ago" in a fictional universe where the galaxy is ruled
+      by the tyrannical Galactic Empire, the story focuses on a group of freedom fighters
+      known as the Rebel Alliance, who aim to destroy the Empire''s newest weapon,
+      the Death Star. Luke Skywalker becomes caught in the conflict while learning
+      the ways of a metaphysical power known as "the Force" from Jedi Master Obi-Wan
+      Kenobi. The cast includes Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing,
+      Alec Guinness, David Prowse, James Earl Jones, Anthony Daniels, Kenny Baker,
+      and Peter Mayhew.'
+- model: films.movie
+  pk: 4
+  fields:
+    name: 'Star Wars: The Empire Strikes Back'
+    year: 1980
+    description: 'The Empire Strikes Back (also known as Star Wars: Episode V – The
+      Empire Strikes Back) is a 1980 American epic space opera film directed by Irvin
+      Kershner from a screenplay by Leigh Brackett and Lawrence Kasdan, based on a
+      story by George Lucas. The sequel to Star Wars (1977), it is the second film
+      in the Star Wars film series and the fifth chronological chapter of the "Skywalker
+      Saga". Set three years after the events of Star Wars, the film recounts the
+      battle between the malevolent Galactic Empire, led by the Emperor, and the Rebel
+      Alliance, led by Princess Leia. Luke Skywalker trains to master the Force so
+      he can confront the powerful Sith lord, Darth Vader. The ensemble cast includes
+      Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams, Anthony Daniels,
+      David Prowse, Kenny Baker, Peter Mayhew, and Frank Oz.'
+- model: films.movie
+  pk: 5
+  fields:
+    name: 'Star Wars: The Return of the Jedi'
+    year: 1983
+    description: "Return of the Jedi (also known as Star Wars: Episode VI – Return
+      of the Jedi) is a 1983 American epic space opera film directed by Richard Marquand.
+      The screenplay is by Lawrence Kasdan and George Lucas from a story by Lucas,
+      who was also the executive producer. The sequel to Star Wars (1977) and The
+      Empire Strikes Back (1980), it is the third installment in the original Star
+      Wars trilogy, the third film to be produced, and the sixth chronological film
+      in the \"Skywalker Saga\". The film stars Mark Hamill, Harrison Ford, Carrie
+      Fisher, Billy Dee Williams, Anthony Daniels, David Prowse, Kenny Baker, Peter
+      Mayhew and Frank Oz.\r\n\r\nSet one year after The Empire Strikes Back, the
+      Galactic Empire is constructing a second Death Star to exterminate the Rebel
+      Alliance. With intel that the Emperor will be onboard, the Rebel fleet launches
+      a full-scale attack on the Death Star in hopes of both destroying it and the
+      Emperor. Meanwhile, Rebel hero Luke Skywalker, now a Jedi Knight, struggles
+      to bring his father, Darth Vader, back to the light side of the Force."
+- model: films.movie
+  pk: 6
+  fields:
+    name: The Lego Ninjago Movie
+    year: 2017
+    description: The Lego Ninjago Movie is a 2017 computer-animated martial arts comedy
+      film produced by Warner Animation Group, RatPac Entertainment, Lego System A/S,
+      Lin Pictures, Lord Miller Productions, and Vertigo Entertainment, and distributed
+      by Warner Bros. Pictures. Based on the toy line of the same name, it was directed
+      by Charlie Bean, Paul Fisher, and Bob Logan (in their feature directorial debuts)
+      from a screenplay by Logan, Fisher, William Wheeler, Tom Wheeler, Jared Stern,
+      and John Whittington. It is the first theatrical film to be based on an original
+      Lego property and the third installment in The Lego Movie franchise as well
+      as its second spin-off. The film stars the voices of Dave Franco, Michael Pena,
+      Kumail Nanjiani, Abbi Jacobson, Zach Woods, Fred Armisen, Justin Theroux and
+      Olivia Munn, as well as a live-action role by Jackie Chan (who also voiced Wu
+      in the film). The film focuses on a young teenage ninja Lloyd Garmadon, as he
+      attempts to accept the truth about his villainous father and learn what it truly
+      means to be a ninja warrior as a new threat emerges to endanger his homeland.
+- model: films.movie
+  pk: 7
+  fields:
+    name: Harry Potter and the Philosopher's Stone
+    year: 2001
+    description: Harry Potter and the Philosopher's Stone (released in the United
+      States, India and the Philippines as Harry Potter and the Sorcerer's Stone)
+      is a 2001 fantasy film directed by Chris Columbus and produced by David Heyman,
+      from a screenplay by Steve Kloves, based on the 1997 novel of the same name
+      by J. K. Rowling. It is the first instalment in the Harry Potter film series.
+      The film stars Daniel Radcliffe as Harry Potter, with Rupert Grint as Ron Weasley,
+      and Emma Watson as Hermione Granger. Its story follows Harry's first year at
+      Hogwarts School of Witchcraft and Wizardry as he discovers that he is a famous
+      wizard and begins his formal wizarding education.
+- model: films.movie
+  pk: 8
+  fields:
+    name: 'Puss in Boots: The Last Wish'
+    year: 2022
+    description: 'Puss in Boots: The Last Wish is a 2022 American computer-animated
+      adventure film produced by DreamWorks Animation and distributed by Universal
+      Pictures. The sequel to the spin-off film Puss in Boots (2011) and the sixth
+      installment in the Shrek franchise, the film was directed by Joel Crawford and
+      co-directed by Januel Mercado. Based on the character from Shrek 2 (2004) and
+      inspired by the eponymous fairy tale, the film''s screenplay was written by
+      Paul Fisher and Tommy Swerdlow, with a story by Swerdlow and Tom Wheeler (the
+      latter of whom wrote the 2011 film). The voice cast of Puss in Boots: The Last
+      Wish includes Antonio Banderas and Salma Hayek Pinault reprising their respective
+      roles as the titular character and Kitty Softpaws, and are joined by Harvey
+      Guillén, Florence Pugh, Olivia Colman, Ray Winstone, Samson Kayo, John Mulaney,
+      Wagner Moura, Da''Vine Joy Randolph, and Anthony Mendez, who voice new characters
+      introduced in the film. Set after Shrek Forever After (2010), the film follows
+      Puss in Boots as he journeys to find the mystical Last Wish for the Wishing
+      Star by teaming up with Kitty and Perrito (Guillén) to restore the first eight
+      of his nine lives, by wishing on the mystical Last Wishing Star. They must race
+      against Goldilocks and her Three Bears Crime Family (Pugh, Winstone, Colman,
+      and Kayo), and "Big" Jack Horner (Mulaney), who all desire the star; Puss must
+      also avoid a mysterious hooded wolf (Moura), who plots to kill him.'
+- model: films.movie
+  pk: 9
+  fields:
+    name: How to Train Your Dragon
+    year: 2010
+    description: How to Train Your Dragon is a 2010 American computer-animated action
+      fantasy film loosely based on the 2003 book of the same name by Cressida Cowell,
+      produced by DreamWorks Animation and distributed by Paramount Pictures. It was
+      directed by Chris Sanders and Dean DeBlois from a screenplay by Will Davies,
+      Sanders, and DeBlois, and stars the voices of Jay Baruchel, Gerard Butler, Craig
+      Ferguson, America Ferrera, Jonah Hill, Christopher Mintz-Plasse, T.J. Miller,
+      and Kristen Wiig. The story takes place in Berk, a mythical Viking village;
+      Hiccup, an undersized teen wishing to become a dragon slayer like the other
+      Vikings, injures a rare Night Fury dragon but is unable to bring himself to
+      kill it. He instead helps and befriends the dragon, and quickly discovers that
+      things are not exactly as they seem in the Viking-Dragon conflict.
+- model: films.movie
+  pk: 10
+  fields:
+    name: 'Spider-Man: Into the Spider-Verse'
+    year: 2018
+    description: 'Spider-Man: Into the Spider-Verse is a 2018 American computer-animated
+      superhero film featuring the Marvel Comics character Miles Morales as Spider-Man,
+      produced by Columbia Pictures and Sony Pictures Animation in association with
+      Marvel Entertainment. Distributed by Sony Pictures Releasing, it is the first
+      animated film in the Spider-Man franchise. Directed by Bob Persichetti, Peter
+      Ramsey, and Rodney Rothman (in Persichetti and Rothman''s feature directorial
+      debuts) from a screenplay by Phil Lord and Rothman, it stars Shameik Moore as
+      Morales, alongside the voices of Jake Johnson, Hailee Steinfeld, Mahershala
+      Ali, Brian Tyree Henry, Lily Tomlin, Luna Lauren Vélez, John Mulaney, Kimiko
+      Glenn, Nicolas Cage, and Liev Schreiber. The film''s story follows Miles Morales
+      as he becomes the new Spider-Man and joins other Spider-People from various
+      parallel universes to save his universe from Kingpin.'
