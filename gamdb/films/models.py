@@ -8,7 +8,8 @@ class Movie(models.Model):
     avg_rating = models.FloatField(blank=True, null=True)
     description = models.TextField(blank=True)
     director = models.ForeignKey('Director', blank=True, null=True, on_delete=models.SET_NULL)
-    genres = models.ManyToManyField('Genre', blank=True, null=True)
+    genres = models.ManyToManyField('Genre', blank=True)
+    actors = models.ManyToManyField('Actor', blank=True)
 
     def genres_display(self): #because ManyToMany can't be displayed default
         return ", ".join([i.name for i in self.genres.all()])
