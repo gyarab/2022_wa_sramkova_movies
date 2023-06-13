@@ -7,6 +7,29 @@
 
 {% block content %}
 <h1>Filmy</h1>
+
+<div class="row">
+    <form method="get" action="./">
+    <div class="input-group mb-3">
+        <input type="text" name="search" value="{{ search|default:"" }}" class="form-control" placeholder="..." aria-label="Hledat" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Hledat</button>
+    </div>
+    </form>
+</div>
+
+<div class="row">
+    <ul class="list-inline">
+        <li class="list-inline-item">
+            <a class="btn {% if not genre %}btn-primary{% else %}btn-outline-secondary{% endif %}" href="./">All</a>
+        </li>
+        {% for g in genres %}
+        <li class="list-inline-item">
+            <a class="btn {% if g.name == genre %}btn-primary{% else %}btn-outline-secondary{% endif %}" href="./?genre={{ g.name }}">{{ g.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
 <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3 g-2">
     {% for movie in movies %}
     <div class="col">
