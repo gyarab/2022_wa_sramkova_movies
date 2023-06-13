@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-#!lotrimu#j^l(3j32pf82a0ijak6y2mc@-(b6uk#+yh&xr!(o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -110,6 +110,8 @@ LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
+USE_L10N = False
+
 
 USE_TZ = True
 
