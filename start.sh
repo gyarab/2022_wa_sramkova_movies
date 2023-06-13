@@ -6,7 +6,7 @@ set -e
 # TODO build sass/webpack
 
 # install any project requirements that are not installed in docker image
-pip install -r requirements.txt
+#pip install -r requirements.txt
 
 # ./manage.py migrate --check
 # auto apply migrations - may be dangerous
@@ -23,7 +23,8 @@ if [ "$1" = 'uwsgi' ]; then
     #     GROUP_ID="$3"
     # fi
     # exec gosu admin uwsgi --http=0.0.0.0:80 --module=backend.wsgi --die-on-term --uid "${USER_ID}" --gid "${GROUP_ID}"
-    exec uwsgi --http=0.0.0.0:80 --module=backend.wsgi --die-on-term --touch-reload=/app/uwsgi.reload
+    exec uwsgi --http=0.0.0.0:80 --module=gamdb.wsgi --die-on-term --touch-reload=/app/uwsgi.reload
 fi
 
 exec "$@"
+
