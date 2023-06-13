@@ -14,6 +14,11 @@
       species indigenous to Pandora. The title of the film refers to a genetically
       engineered Na'vi body operated from the brain of a remotely located human that
       is used to interact with the natives of Pandora.
+    director:
+    actors:
+    genres: 
+    avg_rating:
+      
 - model: films.movie
   pk: 2
   fields:
@@ -31,6 +36,11 @@
       Kate Winslet, Cliff Curtis, Edie Falco, and Jemaine Clement. In the film, Na''vi
       Jake Sully (Worthington) and his family, under renewed human threat, seek refuge
       with the Metkayina clan of Pandora.'
+    director:
+    actors:
+    genres:
+    avg_rating:
+      
 - model: films.movie
   pk: 3
   fields:
@@ -49,6 +59,11 @@
       Kenobi. The cast includes Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing,
       Alec Guinness, David Prowse, James Earl Jones, Anthony Daniels, Kenny Baker,
       and Peter Mayhew.'
+    director:
+    actors:
+    genres:
+    avg_rating:
+      
 - model: films.movie
   pk: 4
   fields:
@@ -66,6 +81,11 @@
       he can confront the powerful Sith lord, Darth Vader. The ensemble cast includes
       Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams, Anthony Daniels,
       David Prowse, Kenny Baker, Peter Mayhew, and Frank Oz.'
+    director:
+    actors:
+    genres:
+    avg_rating:
+      
 - model: films.movie
   pk: 5
   fields:
@@ -86,6 +106,11 @@
       a full-scale attack on the Death Star in hopes of both destroying it and the
       Emperor. Meanwhile, Rebel hero Luke Skywalker, now a Jedi Knight, struggles
       to bring his father, Darth Vader, back to the light side of the Force."
+    director:
+    actors:
+    genres:
+    avg_rating:
+      
 - model: films.movie
   pk: 6
   fields:
@@ -106,6 +131,11 @@
       in the film). The film focuses on a young teenage ninja Lloyd Garmadon, as he
       attempts to accept the truth about his villainous father and learn what it truly
       means to be a ninja warrior as a new threat emerges to endanger his homeland.
+    director:
+    actors:
+    genres:
+    avg_rating:
+      
 - model: films.movie
   pk: 7
   fields:
@@ -121,6 +151,11 @@
       and Emma Watson as Hermione Granger. Its story follows Harry's first year at
       Hogwarts School of Witchcraft and Wizardry as he discovers that he is a famous
       wizard and begins his formal wizarding education.
+    director:
+    actors:
+    genres:
+    avg_rating:
+      
 - model: films.movie
   pk: 8
   fields:
@@ -146,6 +181,11 @@
       against Goldilocks and her Three Bears Crime Family (Pugh, Winstone, Colman,
       and Kayo), and "Big" Jack Horner (Mulaney), who all desire the star; Puss must
       also avoid a mysterious hooded wolf (Moura), who plots to kill him.'
+    director:
+    actors:
+    genres:
+    avg_rating:
+      
 - model: films.movie
   pk: 9
   fields:
@@ -163,6 +203,11 @@
       Vikings, injures a rare Night Fury dragon but is unable to bring himself to
       kill it. He instead helps and befriends the dragon, and quickly discovers that
       things are not exactly as they seem in the Viking-Dragon conflict.
+    director:
+    actors:
+    genres:
+    avg_rating:
+      
 - model: films.movie
   pk: 10
   fields:
@@ -181,6 +226,10 @@
       Glenn, Nicolas Cage, and Liev Schreiber. The film''s story follows Miles Morales
       as he becomes the new Spider-Man and joins other Spider-People from various
       parallel universes to save his universe from Kingpin.'
+    director:
+    actors:
+    genres:
+    avg_rating:
 
 #GNERES
 
