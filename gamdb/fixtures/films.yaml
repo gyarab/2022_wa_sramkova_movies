@@ -2,6 +2,7 @@
   pk: 1
   fields:
     name: Avatar
+    image_url: https://sydfield.com/wp-content/uploads/2020/05/Avatar-poster.png
     year: 2009
     description: Avatar (marketed as James Cameron's Avatar) is a 2009 epic science
       fiction film directed, written, co-produced, and co-edited by James Cameron
@@ -16,7 +17,8 @@
 - model: films.movie
   pk: 2
   fields:
-    name: 'Avatar: The Way of Water'
+    name: Avatar: The Way of Water
+    image_url: https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg
     year: 2022
     description: 'Avatar: The Way of Water is a 2022 American epic science fiction
       film directed and produced by James Cameron. He co-wrote the screenplay with
@@ -32,7 +34,8 @@
 - model: films.movie
   pk: 3
   fields:
-    name: 'Star Wars: A New Hope'
+    name: Star Wars: A New Hope
+    image_url: https://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg
     year: 1977
     description: 'Star Wars (retroactively titled Star Wars: Episode IV – A New Hope)
       is a 1977 American epic space opera film written and directed by George Lucas,
@@ -49,7 +52,8 @@
 - model: films.movie
   pk: 4
   fields:
-    name: 'Star Wars: The Empire Strikes Back'
+    name: Star Wars: The Empire Strikes Back
+    image_url: https://upload.wikimedia.org/wikipedia/en/3/3f/The_Empire_Strikes_Back_%281980_film%29.jpg
     year: 1980
     description: 'The Empire Strikes Back (also known as Star Wars: Episode V – The
       Empire Strikes Back) is a 1980 American epic space opera film directed by Irvin
@@ -65,7 +69,8 @@
 - model: films.movie
   pk: 5
   fields:
-    name: 'Star Wars: The Return of the Jedi'
+    name: Star Wars: The Return of the Jedi
+    image_url: https://upload.wikimedia.org/wikipedia/en/b/b2/ReturnOfTheJediPoster1983.jpg
     year: 1983
     description: "Return of the Jedi (also known as Star Wars: Episode VI – Return
       of the Jedi) is a 1983 American epic space opera film directed by Richard Marquand.
@@ -85,6 +90,7 @@
   pk: 6
   fields:
     name: The Lego Ninjago Movie
+    image_url: https://upload.wikimedia.org/wikipedia/en/9/9f/The_Lego_Ninjago_Movie.jpg
     year: 2017
     description: The Lego Ninjago Movie is a 2017 computer-animated martial arts comedy
       film produced by Warner Animation Group, RatPac Entertainment, Lego System A/S,
@@ -104,6 +110,7 @@
   pk: 7
   fields:
     name: Harry Potter and the Philosopher's Stone
+    image_url: https://upload.wikimedia.org/wikipedia/en/7/7a/Harry_Potter_and_the_Philosopher%27s_Stone_banner.jpg
     year: 2001
     description: Harry Potter and the Philosopher's Stone (released in the United
       States, India and the Philippines as Harry Potter and the Sorcerer's Stone)
@@ -117,7 +124,8 @@
 - model: films.movie
   pk: 8
   fields:
-    name: 'Puss in Boots: The Last Wish'
+    name: Puss in Boots: The Last Wish
+    image_url: https://upload.wikimedia.org/wikipedia/en/7/78/Puss_in_Boots_The_Last_Wish_poster.jpg
     year: 2022
     description: 'Puss in Boots: The Last Wish is a 2022 American computer-animated
       adventure film produced by DreamWorks Animation and distributed by Universal
@@ -142,6 +150,7 @@
   pk: 9
   fields:
     name: How to Train Your Dragon
+    image_url: https://upload.wikimedia.org/wikipedia/en/9/99/How_to_Train_Your_Dragon_Poster.jpg
     year: 2010
     description: How to Train Your Dragon is a 2010 American computer-animated action
       fantasy film loosely based on the 2003 book of the same name by Cressida Cowell,
@@ -157,7 +166,8 @@
 - model: films.movie
   pk: 10
   fields:
-    name: 'Spider-Man: Into the Spider-Verse'
+    name: Spider-Man: Into the Spider-Verse
+    image_url: https://upload.wikimedia.org/wikipedia/en/7/73/Spider-Man_-_Into_the_Spider-Verse_%282018%29_Theatrical_Poster.jpg
     year: 2018
     description: 'Spider-Man: Into the Spider-Verse is a 2018 American computer-animated
       superhero film featuring the Marvel Comics character Miles Morales as Spider-Man,
@@ -171,3 +181,63 @@
       Glenn, Nicolas Cage, and Liev Schreiber. The film''s story follows Miles Morales
       as he becomes the new Spider-Man and joins other Spider-People from various
       parallel universes to save his universe from Kingpin.'
+
+#GNERES
+
+- model: films.genre
+  pk: 1
+  fields:
+    name: Action
+
+- model: films.genre
+  pk: 2
+  fields:
+    name: Drama
+
+- model: films.genre
+  pk: 3
+  fields:
+    name: Animated
+
+- model: films.genre
+  pk: 4
+  fields:
+    name: Adventure
+
+- model: films.genre
+  pk: 5
+  fields:
+    name: Family
+
+- model: films.genre
+  pk: 6
+  fields:
+    name: Comedy
+
+- model: films.genre
+  pk: 7
+  fields:
+    name: Criminal
+
+- model: films.genre
+  pk: 8
+  fields:
+    name: Thriller
+    
+#ACTORS    
+
+- model: films.actor
+  pk: 
+  fields:
+    name: 
+    birth_year: 
+    description: 
+    photo_url: 
+        
+#DIRECTORS
+
+- model: 
+  pk: 
+  fields:
+    name: 
+    birth_year: 1963
